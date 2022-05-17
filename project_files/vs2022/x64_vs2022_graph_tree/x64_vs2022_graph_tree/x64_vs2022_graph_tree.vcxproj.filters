@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\define">
+      <UniqueIdentifier>{a0ba1604-9c7a-4d42-8d18-b67977d7c05e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\details">
+      <UniqueIdentifier>{12c360d3-696e-4de6-b810-669bda59f75a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\include\graph\tree\types.h">
@@ -24,9 +30,30 @@
     <ClInclude Include="..\..\..\..\include\graph\tree\tree_node.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\include\graph\headers\tree_define.h">
+      <Filter>Header Files\define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\graph\tree\tree_mman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\graph\tree\tree_manipulate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\graph\details\tree\tree_internal_types.h">
+      <Filter>Header Files\details</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\source\tree\tree_node.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\tree\tree_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\tree\tree_mman.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\tree\tree_manipulate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

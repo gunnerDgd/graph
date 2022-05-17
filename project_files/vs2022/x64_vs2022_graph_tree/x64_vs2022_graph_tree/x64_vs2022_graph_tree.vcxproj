@@ -19,11 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\include\graph\details\tree\tree_internal_types.h" />
+    <ClInclude Include="..\..\..\..\include\graph\headers\tree_define.h" />
     <ClInclude Include="..\..\..\..\include\graph\tree\tree_init.h" />
+    <ClInclude Include="..\..\..\..\include\graph\tree\tree_manipulate.h" />
+    <ClInclude Include="..\..\..\..\include\graph\tree\tree_mman.h" />
     <ClInclude Include="..\..\..\..\include\graph\tree\tree_node.h" />
     <ClInclude Include="..\..\..\..\include\graph\tree\types.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\source\tree\tree_init.c" />
+    <ClCompile Include="..\..\..\..\source\tree\tree_manipulate.c" />
+    <ClCompile Include="..\..\..\..\source\tree\tree_mman.c" />
     <ClCompile Include="..\..\..\..\source\tree\tree_node.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -86,7 +93,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\MinusOne\Projects\Experiment\synapse-graph\include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\Programming\C++\Projects\experimental\synapse-graph\include;D:\Programming\C++\Projects\experimental\synapse-graph\source;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
